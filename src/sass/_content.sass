@@ -1,0 +1,54 @@
+.first-s
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../img/first-bg.jpg') center / cover no-repeat
+  &__content
+    padding: 22rem 34.5rem 12rem 34.5rem
+    display: grid
+    grid-template-columns: 60% 40%
+    h1 
+      margin-bottom: 2.4rem
+      grid-column: 1 / span 1
+      span 
+        color: $c-orange
+    p 
+      grid-column: 1 / span 1
+      margin-bottom: 6rem
+    .btns
+      grid-column: 1 / span 1
+      margin-bottom: 15rem
+      .btn
+        &:not(:last-child) 
+          margin-right: 2.4rem
+    .slider-lines
+      justify-self: start
+      grid-column: 1 / span 2
+      display: flex
+      justify-content: center
+      .slide
+        font-size: 2.8rem
+        display: flex
+        align-items: start
+        border-bottom: .2rem solid $c-gray
+        padding: 0 14rem 1.2rem 0
+        color: $c-white
+        &:not(:last-child)
+          margin-right: .4rem
+
+.we 
+  &__content
+    padding: 12rem 34.5rem
+  &__first
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    h2 
+      margin-bottom: 2.4rem
+    span 
+      margin-bottom: 6rem
+  &__overelay
+    width: 100%
+
+        
+      
+          
+
